@@ -1,5 +1,3 @@
- 
-
 
 function Text() {
     console.log("button Clicked");
@@ -39,3 +37,36 @@ function Text() {
 
 }
 
+function Deac(){
+    $( document ).ready(function(){
+        $(".active").toggleClass("active");
+    })
+}
+
+function Nav1(){
+    console.log("working");
+$( document ).ready(function(){
+     $(".there").toggleClass("active");
+})
+}
+
+function Nav2(){
+    console.log("working");
+$( document ).ready(function(){
+     $(".bere").toggleClass("active");
+})
+}
+
+function Nav3(){
+    console.log("working");
+$( document ).ready(function(){
+     $(".Home").toggleClass("active");
+})
+}
+
+function Nav4(){
+    console.log("working");
+$( document ).ready(function(){
+     $(".here").toggleClass("active");
+})
+}

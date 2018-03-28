@@ -19,7 +19,7 @@ font-size: 500%;
 width: 1000px;
  border: 10px solid transparent;
     padding: 15px;
-    border-image: url(color.gif) 2 round;
+    border-color: black;
     text-align: center;
 }
 .bb {
@@ -68,8 +68,25 @@ ul{
     list-style-type: none;
     margin:0;
     padding: 0;
+    overflow: hidden;
+    background-color:deepskyblue;
+    position:sticky;
+    top:0;
 }
 
-il{
-    display: inline;
+li{
+    float:left;
+}
+li a {
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: blue;    
+}
+.active{
+    background-color: darkblue;
 }
