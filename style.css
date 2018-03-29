@@ -90,3 +90,6 @@ li a:hover:not(.active){
 .active{
     background-color: darkblue;
 }
+.sticky{
+    text-align: center;
+}
