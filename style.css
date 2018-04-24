@@ -6,29 +6,21 @@ html{
     border-image: url(color.gif) 1 round;
     height:auto; 
 }
-
-
 .Cr{
     background-image: url(KYLO.jpg);
 }
 .para {
-    margin: auto;
-    margin-bottom: 2000px;
-color : orange;
-font-size: 500%;
-width: 1000px;
- border: 10px solid transparent;
+    color : orange;
+    font-size: 500%;
+    width: 1000px;
+    border: 10px solid transparent;
     padding: 15px;
     border-color: black;
-    text-align: center;
 }
 .bb {
-    margin:auto;
     box-sizing: border-box;
     width: 200px;
-    border: 10px solid;
-    padding: 10px;
-    border-image: url(giphy.gif) 2 round;
+    padding: 10px 20px;
     text-align: center;
 }
  
@@ -36,55 +28,45 @@ width: 1000px;
     box-sizing: border-box;
     margin: auto;
     width: 200px;
-    border: 10px solid transparent;
-    padding: 10px;
-    border-image: url(giphy.gif) 2 round;
+    padding: 10px 20px;
     text-align: center;
 }
 
 .NICE {
-  text-align: center;
     
 }
 
 .bEn{
     color: white;
+    margin-top: 1000px;
 }
 
 .ordered{
     color:aliceblue;
 }
-
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  bottom:0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
-}
 ul{
     list-style-type: none;
     margin:0;
     padding: 0;
-    overflow: hidden;
     background-color:deepskyblue;
     position:sticky;
     top:0;
+    z-index: 1;
 }
 
 li{
     float:left;
+    position: sticky;
 }
 li a {
     display: block;
     color: cyan;
     text-align: center;
-    padding: 14px 30px;
+    padding: 14px 50.5px;
     text-decoration: none;
+    background-color: deepskyblue;
 }
-li a:hover:not(.active){
+li a:hover{
     background-color: blue;    
 }
 .Home{
@@ -93,11 +75,11 @@ li a:hover:not(.active){
 .sticky{
     text-align: center;
 }
-.ion-social-reddit{
-    color: black;
-}
 .dropdown {
-    float: right;
+    float: left;
+    overflow: hidden;
+    background-color: deepskyblue;
+    
 }
 
 .dropdown .dropbtn {
@@ -105,10 +87,11 @@ li a:hover:not(.active){
     border: none;
     outline: none;
     color: cyan;
-    padding: 14px 30px;
+    padding: 14px 50.5px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    position: sticky;
 }
 
  .dropdown:hover .dropbtn {
@@ -119,7 +102,7 @@ li a:hover:not(.active){
     display: none;
     position: absolute;
     background-color: #0066cc;
-    min-width: 160px;
+    min-width: 160spx;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -131,14 +114,15 @@ li a:hover:not(.active){
     text-decoration: none;
     display: block;
     text-align: left;
-    border: 1px solid;
     border-color: blue ;
 }
 
 .dropdown-content a:hover {
-    color: darkblue;
+    background-color: darkblue;
+    
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
+

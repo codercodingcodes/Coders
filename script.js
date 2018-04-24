@@ -27,12 +27,12 @@ function Origin(){
 }
 function order(){
     heading = document.querySelector(".cd");
-    heading.innerHTML = "Follow the dark side"
+    heading.innerHTML ="<h2>" + "Follow the dark side" + "</h2>";
 }
 
 function m(){
     heading = document.querySelector(".bb");
-    heading.innerHTML = "Execute order 66"
+    heading.innerHTML ="<h2>" + "Execute order 66" + "</h2>"
 }
 
 function sticky() {
