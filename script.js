@@ -3,16 +3,6 @@ var OH= "OhLaLa";
 var m8= "8";
 
 
-alert(iable);
-
-alert(matH(2, 3, 4,));
-
-function matH(math,mAth,maTh) {
-    return math * mAth / maTh;   
-}
-
-console.log(iable);
-
 
 
 
